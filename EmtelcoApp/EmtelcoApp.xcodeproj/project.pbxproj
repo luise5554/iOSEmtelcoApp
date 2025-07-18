@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0FB6AB52E2AAC4700230E5F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A0FB6AB42E2AAC4700230E5F /* Alamofire */; };
+		A0FB6AB82E2AAC5C00230E5F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A0FB6AB72E2AAC5C00230E5F /* Kingfisher */; };
+		A0FB6ACA2E2AB05100230E5F /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A0FB6AC92E2AB05100230E5F /* RealmSwift */; };
+		A0FB6ACF2E2AB36500230E5F /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = A0FB6AC92E2AB05100230E5F /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A0FB6AE92E2ACAF100230E5F /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = A0FB6AE82E2ACAF100230E5F /* Factory */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0FB6A962E2AAB1800230E5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0FB6A772E2AAB1600230E5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0FB6A7E2E2AAB1600230E5F;
+			remoteInfo = EmtelcoApp;
+		};
+		A0FB6AA02E2AAB1800230E5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0FB6A772E2AAB1600230E5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0FB6A7E2E2AAB1600230E5F;
+			remoteInfo = EmtelcoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A0FB6AD02E2AB36500230E5F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A0FB6ACF2E2AB36500230E5F /* RealmSwift in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A0FB6A7F2E2AAB1600230E5F /* EmtelcoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmtelcoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0FB6A952E2AAB1800230E5F /* EmtelcoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmtelcoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0FB6A9F2E2AAB1800230E5F /* EmtelcoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmtelcoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A0FB6A812E2AAB1600230E5F /* EmtelcoApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EmtelcoApp;
+			sourceTree = "<group>";
+		};
+		A0FB6A982E2AAB1800230E5F /* EmtelcoAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EmtelcoAppTests;
+			sourceTree = "<group>";
+		};
+		A0FB6AA22E2AAB1800230E5F /* EmtelcoAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EmtelcoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0FB6A7C2E2AAB1600230E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0FB6ACA2E2AB05100230E5F /* RealmSwift in Frameworks */,
+				A0FB6AB82E2AAC5C00230E5F /* Kingfisher in Frameworks */,
+				A0FB6AB52E2AAC4700230E5F /* Alamofire in Frameworks */,
+				A0FB6AE92E2ACAF100230E5F /* Factory in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FB6A922E2AAB1800230E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FB6A9C2E2AAB1800230E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0FB6A762E2AAB1600230E5F = {
+			isa = PBXGroup;
+			children = (
+				A0FB6A812E2AAB1600230E5F /* EmtelcoApp */,
+				A0FB6A982E2AAB1800230E5F /* EmtelcoAppTests */,
+				A0FB6AA22E2AAB1800230E5F /* EmtelcoAppUITests */,
+				A0FB6A802E2AAB1600230E5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0FB6A802E2AAB1600230E5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0FB6A7F2E2AAB1600230E5F /* EmtelcoApp.app */,
+				A0FB6A952E2AAB1800230E5F /* EmtelcoAppTests.xctest */,
+				A0FB6A9F2E2AAB1800230E5F /* EmtelcoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0FB6A7E2E2AAB1600230E5F /* EmtelcoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0FB6AA92E2AAB1800230E5F /* Build configuration list for PBXNativeTarget "EmtelcoApp" */;
+			buildPhases = (
+				A0FB6A7B2E2AAB1600230E5F /* Sources */,
+				A0FB6A7C2E2AAB1600230E5F /* Frameworks */,
+				A0FB6A7D2E2AAB1600230E5F /* Resources */,
+				A0FB6AD02E2AB36500230E5F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A0FB6A812E2AAB1600230E5F /* EmtelcoApp */,
+			);
+			name = EmtelcoApp;
+			packageProductDependencies = (
+				A0FB6AB42E2AAC4700230E5F /* Alamofire */,
+				A0FB6AB72E2AAC5C00230E5F /* Kingfisher */,
+				A0FB6AC92E2AB05100230E5F /* RealmSwift */,
+				A0FB6AE82E2ACAF100230E5F /* Factory */,
+			);
+			productName = EmtelcoApp;
+			productReference = A0FB6A7F2E2AAB1600230E5F /* EmtelcoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0FB6A942E2AAB1800230E5F /* EmtelcoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0FB6AAC2E2AAB1800230E5F /* Build configuration list for PBXNativeTarget "EmtelcoAppTests" */;
+			buildPhases = (
+				A0FB6A912E2AAB1800230E5F /* Sources */,
+				A0FB6A922E2AAB1800230E5F /* Frameworks */,
+				A0FB6A932E2AAB1800230E5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0FB6A972E2AAB1800230E5F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A0FB6A982E2AAB1800230E5F /* EmtelcoAppTests */,
+			);
+			name = EmtelcoAppTests;
+			packageProductDependencies = (
+			);
+			productName = EmtelcoAppTests;
+			productReference = A0FB6A952E2AAB1800230E5F /* EmtelcoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0FB6A9E2E2AAB1800230E5F /* EmtelcoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0FB6AAF2E2AAB1800230E5F /* Build configuration list for PBXNativeTarget "EmtelcoAppUITests" */;
+			buildPhases = (
+				A0FB6A9B2E2AAB1800230E5F /* Sources */,
+				A0FB6A9C2E2AAB1800230E5F /* Frameworks */,
+				A0FB6A9D2E2AAB1800230E5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0FB6AA12E2AAB1800230E5F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A0FB6AA22E2AAB1800230E5F /* EmtelcoAppUITests */,
+			);
+			name = EmtelcoAppUITests;
+			packageProductDependencies = (
+			);
+			productName = EmtelcoAppUITests;
+			productReference = A0FB6A9F2E2AAB1800230E5F /* EmtelcoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0FB6A772E2AAB1600230E5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A0FB6A7E2E2AAB1600230E5F = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A0FB6A942E2AAB1800230E5F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A0FB6A7E2E2AAB1600230E5F;
+					};
+					A0FB6A9E2E2AAB1800230E5F = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A0FB6A7E2E2AAB1600230E5F;
+					};
+				};
+			};
+			buildConfigurationList = A0FB6A7A2E2AAB1600230E5F /* Build configuration list for PBXProject "EmtelcoApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0FB6A762E2AAB1600230E5F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A0FB6AB32E2AAC4700230E5F /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A0FB6AB62E2AAC5C00230E5F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				A0FB6AC82E2AB05100230E5F /* XCRemoteSwiftPackageReference "realm-swift" */,
+				A0FB6AE72E2ACAF100230E5F /* XCRemoteSwiftPackageReference "Factory" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A0FB6A802E2AAB1600230E5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0FB6A7E2E2AAB1600230E5F /* EmtelcoApp */,
+				A0FB6A942E2AAB1800230E5F /* EmtelcoAppTests */,
+				A0FB6A9E2E2AAB1800230E5F /* EmtelcoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0FB6A7D2E2AAB1600230E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FB6A932E2AAB1800230E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FB6A9D2E2AAB1800230E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0FB6A7B2E2AAB1600230E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FB6A912E2AAB1800230E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0FB6A9B2E2AAB1800230E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0FB6A972E2AAB1800230E5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0FB6A7E2E2AAB1600230E5F /* EmtelcoApp */;
+			targetProxy = A0FB6A962E2AAB1800230E5F /* PBXContainerItemProxy */;
+		};
+		A0FB6AA12E2AAB1800230E5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0FB6A7E2E2AAB1600230E5F /* EmtelcoApp */;
+			targetProxy = A0FB6AA02E2AAB1800230E5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A0FB6AA72E2AAB1800230E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0FB6AA82E2AAB1800230E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A0FB6AAA2E2AAB1800230E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EmtelcoApp/EmtelcoApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EmtelcoApp/presentation/Preview Content\"";
+				DEVELOPMENT_TEAM = U324W5B8W4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "\"Necesitamos usar Face ID / Touch ID para autenticar el acceso al carrito de compras.\"";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.luis.emtelcoapp.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		A0FB6AAB2E2AAB1800230E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EmtelcoApp/EmtelcoApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EmtelcoApp/presentation/Preview Content\"";
+				DEVELOPMENT_TEAM = U324W5B8W4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "\"Necesitamos usar Face ID / Touch ID para autenticar el acceso al carrito de compras.\"";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.luis.emtelcoapp.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		A0FB6AAD2E2AAB1800230E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U324W5B8W4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.luis.emtelcoapp.EmtelcoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmtelcoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EmtelcoApp";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		A0FB6AAE2E2AAB1800230E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U324W5B8W4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.luis.emtelcoapp.EmtelcoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmtelcoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EmtelcoApp";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		A0FB6AB02E2AAB1800230E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U324W5B8W4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.luis.emtelcoapp.EmtelcoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = EmtelcoApp;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		A0FB6AB12E2AAB1800230E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U324W5B8W4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.luis.emtelcoapp.EmtelcoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = EmtelcoApp;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0FB6A7A2E2AAB1600230E5F /* Build configuration list for PBXProject "EmtelcoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0FB6AA72E2AAB1800230E5F /* Debug */,
+				A0FB6AA82E2AAB1800230E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0FB6AA92E2AAB1800230E5F /* Build configuration list for PBXNativeTarget "EmtelcoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0FB6AAA2E2AAB1800230E5F /* Debug */,
+				A0FB6AAB2E2AAB1800230E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0FB6AAC2E2AAB1800230E5F /* Build configuration list for PBXNativeTarget "EmtelcoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0FB6AAD2E2AAB1800230E5F /* Debug */,
+				A0FB6AAE2E2AAB1800230E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0FB6AAF2E2AAB1800230E5F /* Build configuration list for PBXNativeTarget "EmtelcoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0FB6AB02E2AAB1800230E5F /* Debug */,
+				A0FB6AB12E2AAB1800230E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A0FB6AB32E2AAC4700230E5F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		A0FB6AB62E2AAC5C00230E5F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.5.0;
+			};
+		};
+		A0FB6AC82E2AB05100230E5F /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A0FB6AE72E2ACAF100230E5F /* XCRemoteSwiftPackageReference "Factory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Factory";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A0FB6AB42E2AAC4700230E5F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0FB6AB32E2AAC4700230E5F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A0FB6AB72E2AAC5C00230E5F /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0FB6AB62E2AAC5C00230E5F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		A0FB6AC92E2AB05100230E5F /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0FB6AC82E2AB05100230E5F /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		A0FB6AE82E2ACAF100230E5F /* Factory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0FB6AE72E2ACAF100230E5F /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = Factory;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A0FB6A772E2AAB1600230E5F /* Project object */;
+}
