@@ -98,6 +98,12 @@ Gracias a Realm, la lista se guarda localmente para seguir visualizándola inclu
 
 📸 Screenshots (*)  
 
+<img src="https://github.com/user-attachments/assets/94878bdf-8c81-47ed-a88c-998c0f753314" width="200"/>
+<img src="https://github.com/user-attachments/assets/0733e9b4-c007-4de4-aa6f-e23d3384d19d" width="200"/>
+<img src="https://github.com/user-attachments/assets/d760231b-227f-40fe-b700-ce01bcbdcdc2" width="200"/>
+<img src="https://github.com/user-attachments/assets/7026d20d-d5d2-4348-826d-6600cb9f96eb" width="200"/>
+<img src="https://github.com/user-attachments/assets/b36c50e9-81c7-45df-8b0b-dae09889494c" width="200"/>
+
 ⸻
 
 ➡️ [**Descargar .ipa**]
