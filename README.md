@@ -100,6 +100,11 @@ Gracias a Realm, la lista se guarda localmente para seguir visualizándola inclu
 
 ⸻
 
+➡️ [**Descargar .ipa**]
+No se deja opción de descarga de .ipa ya que fuera funcional requeriría una cuenta de desarrollador Apple con permiso para distribución in House (Cuenta Entre Price). Se hace la observacion de que hay otras maneras de distribución como TestFlight con link publico, App Store, Ad Hoc, entre otras, pero por el momento se salen del alcance de este proyecto.
+Por el momento para que puedas usar esta aplicación debes instalarla desde Xcode.
+____
+
 👨‍💻 Autor
 
 Luis Suárez
